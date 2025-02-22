@@ -1,0 +1,46 @@
+gradient-footer {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%) !important;
+}
+
+social-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+social-icon:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer-link {
+    color: rgba(150, 0, 0, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer-link:hover {
+    color: #e20000 !important;
+}
+
+newsletter-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+newsletter-input::placeholder {
+    color: rgba(110, 14, 14, 0.6);
+}
+
+newsletter-input:focus {
+    background: rgba(201, 5, 5, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: rgb(187, 33, 33);
+    box-shadow: none;
+}
