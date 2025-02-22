@@ -9,7 +9,7 @@ db = dbase.dbConnection()
 
 app  = Flask(__name__)
 
-#CODIGO PARA SUBIR UNA IMAGEN POR ID aaaaa
+#CODIGO PARA SUBIR UNA IMAGEN POR ID 
 @app.route('/upload', methods=['POST'])
 def upload_image():
     if 'image' not in request.files:
